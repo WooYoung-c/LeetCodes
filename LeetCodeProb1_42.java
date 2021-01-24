@@ -3,7 +3,7 @@ import java.util.Stack;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
-public class LeetCodeStudyProblem1_num42 {
+public class LeetCodeProb1_42 {
     int trapDynamicProgramming(int[] height) {
         if (height == null) {
             return 0;
@@ -56,10 +56,5 @@ public class LeetCodeStudyProblem1_num42 {
             stack.push(current++);
         }
         return ans;
-    }
-
-    public static void main(String[] args) {
-        int[] height = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-        System.out.println(trapStack(height) + "");
     }
 }
