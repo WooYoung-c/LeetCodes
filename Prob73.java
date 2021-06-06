@@ -1,5 +1,5 @@
 public class Prob73 {
-    public static void setZeroes(int[][] matrix) {
+    public void setZeroes(int[][] matrix) {
         // borrowed from most voted discussion
         boolean isFirstColZero = false;
         int rows = matrix.length, cols = matrix[0].length;
