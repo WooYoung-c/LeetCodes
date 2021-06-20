@@ -53,7 +53,7 @@ public class prob322 {
         if (count[rem - 1] != 0) return count[rem - 1];
 
         // 필요한 하위 값이 없다면 직접 계산
-        // min :
+        // min : 현재 amount를 만들 때 필요한 코인의 최소 갯수
         int min = Integer.MAX_VALUE;
         // coins 안에 있는 값들을 현재 amount로 할당된 값들에 빼서 다음 하위 문제의 목표로 설정.
         for (int coin : coins) {
